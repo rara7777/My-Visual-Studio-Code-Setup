@@ -1,10 +1,11 @@
 # My Visual Studio Code Setup
 
 ### Extensions
+- Bracket Pair Colorizer
 - ESLint
 - Laravel 5 Snippets
 - Laravel Blade Snippets
-- phpfmt - PHP formatter
+- PHP Intelephense
 - Project Manager
 - Vetur
 
@@ -16,56 +17,46 @@
         "editor.tabSize": 2
     },
     "[javascript]": {
-        "editor.tabSize": 2
+        "editor.tabSize": 2,
     },
     "[php]": {
         "editor.tabSize": 4,
-        "editor.formatOnSave": true
-    },
-    "[vue]": {
-        "editor.tabSize": 2
+        "editor.formatOnSave": true,
     },
     "[python]": {
         "editor.tabSize": 4
     },
-    "editor.tabSize": 2,
+    "[vue]": {
+        "editor.tabSize": 2,
+    },
+    "editor.formatOnSave": false,
     "editor.fontSize": 16,
-    "window.zoomLevel": -1,
-    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderWhitespace": "boundary",
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "files.associations": { "*.module": "php" },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
     "search.exclude": {
         "**/bower_components": true,
         "**/dist": true,
+        "**/frontend/public": true,
+        "**/.git": true,
         "**/node_modules": true,
-        "**/vendor": true
+        "**/public": true,
+        "**/storage": true,
+        "**/vendor": true,
+        "package-lock.json": true
     },
-    "editor.renderWhitespace": "boundary",
-    "editor.codeLens": true,
-    "editor.snippetSuggestions": "top",
-    "git.ignoreMissingGitWarning": true,
-    "explorer.confirmDragAndDrop": false,
-    "editor.quickSuggestions": {
-        "other": false,
-        "comments": false,
-        "strings": false
-    },
-    "emmet.includeLanguages": {
-        "blade": "html"
-    },
-    "emmet.triggerExpansionOnTab": true, // enable tab to expanse emmet tags
     "telemetry.enableTelemetry": false,
-    // "files.autoSave": "onFocusChange",
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#333333",
-        "statusBar.noFolderBackground": "#333333",
-        "statusBar.debuggingBackground": "#263238"
-    },
     "css.validate": false,
     "scss.validate": false,
     "less.validate": false,
-    "editor.wordWrap": "on",
-    "blade.format.enable": true,
-    "vetur.validation.template": false,
-    "extensions.ignoreRecommendations": true,
-    "files.eol": "\n"
+    "window.zoomLevel": -1,
+    "terminal.integrated.shell.windows": "D:\\Program Files\\Git\\bin\\bash.exe",
+    "workbench.enableExperiments": false,
+    "telemetry.enableCrashReporter": false,
+    "extensions.autoUpdate": false,
+    "workbench.startupEditor": "newUntitledFile",
 }
 ```
