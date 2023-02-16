@@ -2,12 +2,26 @@
 
 ### Extensions
 - Bracket Pair Colorizer
+- Code Spell Checker
+- Composer
+- DotENV
+- EditorConfig for VSCode
 - ESLint
-- Laravel 5 Snippets
+- Git Graph
+- Git History
+- Git Lens
 - Laravel Blade Snippets
+- Laravel goto view
+- Material Icon Theme
+- PHP DocBlocker
 - PHP Intelephense
 - Project Manager
+- Simple React Snippets
+- Tailwind CSS IntelliSense
+- Typescript React code snippets
 - Vetur
+- XML Tools
+- YAML
 
 ### Settings
 
